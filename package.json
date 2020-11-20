@@ -1,12 +1,11 @@
 {
-  "name": "rpmbuild-example",
+  "name": "hello-typescript",
   "version": "1.0.0",
-  "description": "rpmbuild_dir     `.rpm/build`\r rpmbuild_src_dir `${rpmbuild_dir}/SOURCES`\r spec_file        `${inputs.specfile}`",
+  "description": "example app for gh actions rpmbuild action",
   "main": "index.js",
   "scripts": {
     "build": "tsc"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {

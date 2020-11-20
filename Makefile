@@ -1,4 +1,4 @@
-name = rpmbuild-example
+name = hello-typescript
 target = artifacts/$(name)
 meta_files = package.json package-lock.json
 
