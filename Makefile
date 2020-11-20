@@ -1,6 +1,6 @@
 name = hello-typescript
 target = artifacts/$(name)
-meta_files = package.json package-lock.json
+meta_files = package.json package-lock.json $(name)
 
 build:
 	npm run build
